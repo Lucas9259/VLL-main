@@ -17,7 +17,7 @@
           text-align: center;
         }
         .photo-grid {
-          grid-template-columns: repeat(2, 1fr);
+          grid-template-columns: repeat(1, 1fr);
         max-width: 100%;
         }
       
@@ -45,6 +45,10 @@
             grid-template-columns: repeat(2, 1fr);
           max-width: 100%;
           }
+          .photo-grid img {
+            width: auto; /* Define a largura para auto ao diminuir a responsividade */
+            object-fit: cover; /* Mantém a proporção da imagem */
+          }
         
 } 
 
@@ -70,5 +74,9 @@
           .photo-grid {
             grid-template-columns: repeat(3, 1fr);
           max-width: 100%;
+          }
+          .photo-grid img {
+            width: auto; /* Define a largura para auto ao diminuir a responsividade */
+            object-fit: cover; /* Mantém a proporção da imagem */
           }
 }
