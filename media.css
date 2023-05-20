@@ -18,7 +18,7 @@
           }
           .photo-grid {
             grid-template-columns: repeat(2, 1fr);
-            width: auto;
+            width: 30px;
           }
         
 } 
@@ -44,6 +44,6 @@
           }
           .photo-grid {
             grid-template-columns: repeat(3, 1fr);
-            width: auto;
+            width: 30px ;
           }
 }
