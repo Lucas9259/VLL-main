@@ -1,34 +1,67 @@
-@media screen and (max-width: 480px ){
+@media screen and (max-width: 600px ){
   header {
-      flex-direction: column ;
-        }
-        main {
-          flex-direction: column;
-        }
-        h2 {
-          font-size: 38px ;
-        }
-        
-        footer.rodape {
-          position: static;
-        }
-        ul{
-          text-align: center;
-        }
-        .photo-grid {
-          grid-template-columns: repeat(1, 1fr);
-        max-width: 100%;
-        }
+    flex-direction: column;
+  }
+  
+  main {
+    flex-direction: column;
+  }
+  
+  h2 {
+    font-size: 15px;
+  }
+  
+  footer.rodape {
+    position: static;
+  }
+  
+  ul {
+    text-align: center;
+  }
+  
+  .photo-grid {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 100%;
+  }
       
 } 
 
-@media screen and (max-width: 760px ){
+@media screen and (max-width: 768px ){
     header {
         flex-direction: column ;
           }
           main {
             flex-direction: column;
 
+          }
+          h2 {
+            font-size: 38px ;
+          }
+          
+          footer.rodape {
+            position: static;
+          }
+          ul{
+            text-align: center;
+          }
+          .photo-grid {
+            grid-template-columns: repeat(1, 1fr);
+          max-width: 100%;
+          }
+          .photo-grid img {
+            width: auto; /* Define a largura para auto ao diminuir a responsividade */
+            /*object-fit: cover; /* Mantém a proporção da imagem */
+          }
+        
+} 
+
+
+@media screen and (max-width: 1200px ){
+    header {
+        flex-direction: column ;
+          }
+          main {
+            flex-direction: column;
           }
           h2 {
             font-size: 38px ;
@@ -45,37 +78,9 @@
           max-width: 100%;
           }
           .photo-grid img {
-            width: auto; /* Define a largura para auto ao diminuir a responsividade */
             object-fit: cover; /* Mantém a proporção da imagem */
-          }
-        
-} 
-
-
-@media screen and (max-width: 1260px ){
-    header {
-        flex-direction: column ;
-          }
-          main {
-            flex-direction: column;
-
-          }
-          h2 {
-            font-size: 38px ;
-          }
-          
-          footer.rodape {
-            position: static;
-          }
-          ul{
-            text-align: center;
-          }
-          .photo-grid {
-            grid-template-columns: repeat(3, 1fr);
-          max-width: 100%;
-          }
-          .photo-grid img {
-            width: auto; /* Define a largura para auto ao diminuir a responsividade */
-            object-fit: cover; /* Mantém a proporção da imagem */
+            display: block; /* Define a imagem como um bloco */
+            margin-left: auto; /* Centraliza horizontalmente */
+            margin-right: auto; /* Centraliza horizontalmente */
           }
 }
