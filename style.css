@@ -55,6 +55,8 @@ a:hover {
 
 h1 {
     font-weight: 200;
+      font-size: 30px;
+      word-break: break-word;
 }
 main {
     display: flex;
@@ -69,7 +71,6 @@ h2{
     font-size: 40px ;
     line-height:  10px;
     font-family: 'Courier New', Courier, monospace;
-
 }
 span{
     color:  rgb(236, 127, 38);
