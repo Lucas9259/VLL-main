@@ -58,10 +58,13 @@ a:hover {
 
 
 h1 {
-    font-weight: 200;
-      font-size: 30px;
-      word-break: break-word;
+  font-weight: 200;
+  font-size: 30px;
+  word-break: break-word;
+  margin-left: 20px; /* Afasta o h1 da borda esquerda */
+  text-align: center; /* Centraliza o h1 na página */
 }
+
 main {
     display: flex;
     flex-direction: column;
