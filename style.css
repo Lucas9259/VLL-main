@@ -11,8 +11,18 @@ header{
      flex-direction: row;
      justify-content:  space-between ;
      align-items: center;
+     margin: 15px;
 
 }
+.video-player {
+  width: 80%;
+  margin-left: 18%;
+  margin-right: 18%
+}
+.Video_Make {
+  margin: 50px auto;
+}
+
 
 #title {
     flex-direction: column;

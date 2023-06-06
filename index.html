@@ -8,6 +8,7 @@
     <link rel="icon" href="./components/Logo-Eletrica02.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
+    <script src="./index.js"></script>
 </head>
 <body>
     <header>
@@ -28,7 +29,21 @@
     <main>
         <aside>
             <h2><span>Nossa Empresa</span></h2>
-            <p><strong><u>Somos uma empresa especializada em serviços elétricos para eventos, casas e apartamentos</u>.</strong> Realizamos trabalhos em eventos renomados como Rock in Rio, Festa do Tomate e Expo Itaguaí . Oferecemos o <strong><u>melhor preço do mercado</u>. Confira nossos serviços abaixo e visite nosso Instagram para mais informações. Entre em contato conosco para solicitar um orçamento personalizado. Transforme sua visão em realidade com a nossa expertise em eletricidade</u></strong>.</p>
+            <div class="Video_Make"> 
+                <video class="video-player" autoplay  muted>
+                  <source src="video-name.mp4" type="video/mp4">
+                  Desculpe, seu navegador não suporta o elemento de vídeo.
+                </video>
+              </div>  
+              <script>
+                var video = document.querySelector('.video-player');
+              
+                video.addEventListener('play', function() {
+                  video.volume = 0.5; // Define o volume para 50% quando o vídeo começar a ser reproduzido
+                  video.muted = false; // Ativa o som do vídeo
+                });
+              </script>
+            
         </aside>
     
     <h2><span>Serviços</span></h2>
