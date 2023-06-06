@@ -30,6 +30,9 @@ header{
     font-family: sans-serif;
 
 }
+.menu {
+  display: flex;
+}
 
 li a {
     text-decoration: none;
@@ -55,7 +58,7 @@ a:hover {
 
 h1 {
     font-weight: 200;
-      font-size: 30px;
+      font-size: 30gipx;
       word-break: break-word;
 }
 main {
