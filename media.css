@@ -1,4 +1,52 @@
 
+@media screen and (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25px;
+  }
+  
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    font-size: 38px;
+  }
+  
+  footer.rodape {
+    position: static;
+  }
+  
+  ul {
+    text-align: center;
+  }
+  
+  .photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .photo-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+
+
 @media screen and (max-width: 1200px) {
   body {
     display: flex;
