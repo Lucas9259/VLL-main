@@ -1,11 +1,16 @@
-body{
-    background-color: rgb(20, 20, 20) ;
-    color: #ffffff ;
-    font-family: italic 1.2em "Fira Sans", serif;
-    max-width: 120px ;
-    margin: 0 auto;
-    padding: 15px ;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: rgb(20, 20, 20);
+  color: #ffffff;
+  font-family: italic 1.2em "Fira Sans", serif;
+  padding: 20px;
 }
+
 header{
      display: flex;
      flex-direction: row;
